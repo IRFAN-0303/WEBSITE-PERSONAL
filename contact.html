@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact form</title>
+</head>
+
+<body>
+
+    <link href="contact-form.css" rel="stylesheet">
+
+    <body>
+
+        
+        
+        <div class="container">
+          <div style="text-align:center">
+            <h2>Contact me</h2>
+            <p>leave me a message:</p>
+          </div>
+          <div class="row">
+            <div class="column">
+                <video width="500" height="480" controls>
+                    <source src="picture/vid1.mp4" type="video/mp4">
+                    <source src="picture/vid1.mp4" type="video/ogg">
+                    
+                  </video>
+              
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="singapore">singapore</option>
+                  <option value="indonesia">indonesia</option>
+                  <option value="malaysia">malaysia</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        
+
+</body>
+</html>

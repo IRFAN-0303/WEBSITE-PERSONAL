@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(picture/gif1.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+<h1>MYACHIEVEMENT.COM</h1>
+<hr>
+
+<h2>IRFAN'S ACHIEVEMNET</h2>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="picture/111.jpg" alt="MLBB" style="width:100%">
+      <h3>MLBB</h3>
+      <p>My team and I once won the mobile legend competition that was held at uitm rembau in June 2023</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/112.jpg" alt="MARCHING" style="width:100%">
+      <h3>MARCHING</h3>
+      <p>When I was in secondary school, my team and I once won the foot marching competition at the saka bernam district level and represented it at the selangor state level.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/113.jpg" alt="SAILOR" style="width:100%">
+      <h3>SAILOR</h3>
+      <p>I used to represent the sabak bernam district at the state level sailing championship and got number 3 in the category under 15 years old.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/114.jpg" alt="FOOTBALL" style="width:100%">
+      <h3>FOOTBALL</h3>
+      <p>My team and I once won the district-level soccer tournament and represented the Mohktar Dahari cup competition when I was in high school.</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
